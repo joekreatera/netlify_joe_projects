@@ -1,7 +1,7 @@
-const DateUtil = require('dateutil');
+const DateUtil = require('../dateutil');
 
 function getDate(){
-  var today = DateUtil.date(); 
+  var today = DateUtil.date();
   return DateUtil.format(today , "F d, Y");
 }
 
