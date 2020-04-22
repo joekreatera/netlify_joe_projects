@@ -9,8 +9,8 @@ function getDate(){
 exports.handler = function(event, context, callback) {
 
   var response = "-";
-
-  if(event.path == "/today"){
+  console.log(event.path);
+  if( (""+event.path).indexOf( "/today" ) != -1){
       response = getDate();
   }
 
