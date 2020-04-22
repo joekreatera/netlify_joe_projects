@@ -1,4 +1,4 @@
-const DateUtil = require('../node_modules/dateutil');
+const DateUtil = require('dateutil');
 
 function getDate(){
   var today = DateUtil.date();

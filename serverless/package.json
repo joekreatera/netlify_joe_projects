@@ -4,6 +4,7 @@
   "description": "lambdafunctions for joe profile ",
   "main": "index.js",
   "dependencies": {
+    "@netlify/zip-it-and-ship-it": "^0.3.1",
     "dateutil": "^0.1.0"
   },
   "devDependencies": {},
